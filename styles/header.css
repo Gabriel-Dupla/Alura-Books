@@ -1,0 +1,27 @@
+.cabeçalho__menu-hamburguer {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url("../MenuDownloadsemVetor.svg");
+    background-repeat: no-repeat; /*evita  que o padding do container__imagem afete expandido o svg*/
+    background-position: center; /*especificamente para o íucone de hamburguer gfisem repear*/
+    display: inline-block;
+  
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
+.container__imagem { 
+    padding: 1.2em;
+}
