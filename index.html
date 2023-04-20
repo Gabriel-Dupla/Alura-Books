@@ -11,7 +11,31 @@
 <body>
     <header class="cabeçalho">
         <div class="container"> 
-            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            <input type="checkbox" id="menu" class="container">  
+            <!-- input que detecta o click e mantém a informação --> 
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label> 
+            <!-- Label associa o elemento dentro dele com outro que possuir o id menu--> 
+            <ul class="lista-menu__titulo">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+
+            </ul>
             <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
 
         </div>
