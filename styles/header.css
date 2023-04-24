@@ -27,18 +27,21 @@
     padding: 1.2em;
 }
 
+
 .lista-menu {
     display:none;
     position: absolute;
     top: 100%;
+    /* Não faz diferença se bota as duas últimas propriedades aqui ou depois, o importante é ele mostrar no local correto */
 
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
 
-
 }
+
+
 
 .lista-menu__titulo,
 .lista-menu__item{
@@ -50,6 +53,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 
 }
 
@@ -59,5 +63,10 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+
+}
+
+.container__botao {
+    display: none;
 
 }
