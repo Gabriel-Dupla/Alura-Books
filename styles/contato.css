@@ -1,0 +1,43 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+
+}
+
+.contato__titulo, .contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Colocamos a cor no background e usamos background clip para inserir essa cor no texto: */
+    
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url(../img/Email.svg) no-repeat 1.7px;    /* 1.7px é o deslocamento horizontal  da imagem de fundo em relação À borda esquerda do elemento, se ajeito por mudar a posição*/
+    padding-left: 2.5em;
+
+}
