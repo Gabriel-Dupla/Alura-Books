@@ -115,4 +115,14 @@
     .cabeçalho__menu-hamburguer {
         display:none;
     }
+    /* quando opções__botão clicado ação display:block na lista menu */
+    .opções__botão:checked ~.lista-menu {
+        display: block;
+         width: auto; /* não precisei mas ok  */
+
+    } 
+    /* não aparecer o botão de check */
+    .opções__botão { 
+        display:none;
+    }  
 }

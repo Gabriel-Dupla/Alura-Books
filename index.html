@@ -48,10 +48,33 @@
         </div>
 
         <ul class="opções">
-            <li class="opções__item">Categorias</li>
+            <!-- input mesmo esquema para aparecer a lista suspensa do menu hamburguer
+            englobamos o click do checkbox ao Categorias por meio do label. Faremos aparecer pelo css -->
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
+                <li class="opções__item">Categorias</li>
+            </label>
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+            <!-- Cópia do Menu Hamburguer, só altera no css do media querie  -->
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
 
+            </ul>
 
 
         </ul>
