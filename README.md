@@ -1,3 +1,3 @@
 # Alura-Books
 
-Ainda em desenvolvimento
+Finalizado
