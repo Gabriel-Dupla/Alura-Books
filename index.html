@@ -18,7 +18,7 @@
         <div class="container"> 
             <input type="checkbox" id="menu" class="container__botao">  
             <!-- input que detecta o click e mantém a informação --> 
-            <label for="menu">
+            <label for="menu" class="container__rotulo">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label> 
             <!-- Label associa o elemento dentro dele com outro que possuir o id menu--> 
@@ -51,7 +51,7 @@
             <!-- input mesmo esquema para aparecer a lista suspensa do menu hamburguer
             englobamos o click do checkbox ao Categorias por meio do label. Faremos aparecer pelo css -->
             <input type="checkbox" id="opções-menu" class="opções__botão">
-            <label for="opções-menu">
+            <label for="opções-menu" class="opções__rotulo">
                 <li class="opções__item">Categorias</li>
             </label>
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
@@ -99,6 +99,7 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -143,13 +144,14 @@
 
             </div>
         
-        
+        </div>
             <!-- If we need scrollbar -->
         </div>
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais Vendidos</h2>
         <!-- Slider main container -->
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -168,7 +170,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-
+    
             <div class="card">
                 <!-- primeira linha abaixo-->
                 <div class="card__descrição">
@@ -194,8 +196,9 @@
                 </div>
                 
             </div>
-<!-- Não sei se essa última div é útil ou não -->
-        </div>
+
+        </div><!-- fecha carrossel__container-->
+
     </section>
     <section class="tópicos">
         <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
